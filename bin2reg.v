@@ -40,7 +40,6 @@ case(bin)
 		13: seg = 7'b0111101;
 		14: seg = 7'b1001111;
 		15: seg = 7'b1000111;
-
 endcase
 assign seginvert = ~seg;
 
